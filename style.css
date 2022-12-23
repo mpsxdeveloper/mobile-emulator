@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile {
+    margin: 0 auto; 
+    width: 700px; 
+    height: 390px; 
+    background-color: #000;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.top {
+    width: 96%;
+    height: 360px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 2%;
+    position: absolute;
+}
+
+.top-content {
+    height: 270px;
+    width: 25px;
+    background-color: #000;
+    margin-top: 45px;
+    margin-left: 1%;
+    border-radius: 50px;
+}
+
+.display {
+    width: 75%;
+    height: 340px;
+    margin-left: 10%;
+    margin-top: 25px;
+    background-color: #000;
+    position: absolute;    
+}
+
+.statusbar {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.statusbar-content {
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.icons {
+    color: #fff;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.bottom {
+    height: 55px;
+    width: 55px;
+    margin-left: 87%;
+    margin-top: 165px;
+    position: absolute;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+i:hover {
+    cursor: pointer;
+}
